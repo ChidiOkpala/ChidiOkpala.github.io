@@ -1,0 +1,230 @@
+			/* <!-- main-white: #f0f0f0; --> */
+    /* <!-- --main-red: #be3144; --> */
+    /* <!-- --main-blue: #45567d; --> */
+    /* <!-- --main-gray: #303841; --> */
+
+		
+		html{
+			scroll-behavior:smooth;
+		}
+		
+		body{
+			margin:0px;
+			padding:0px;
+			
+		}
+	
+		#welcome-section{
+			height:100vh;
+			width:100%;
+			background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+			background-color:#45567d;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			margin:0;
+			
+		}
+		
+		.p1{
+			font-size: 1.8rem;
+			font-style: italic;
+			color:#be3144;
+			font-family:'Poppins', sans-serif;
+			line-height:1.4;
+		}
+		
+		.p2{
+			font-size: 1.8rem;
+			font-style: italic;
+			color:#f0f0f0;
+			font-family:'Poppins', sans-serif;
+			line-height:1.4;
+		}
+		
+		h1{
+			font-size:3rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			color:#f0f0f0;
+			margin-bottom:-10px;
+		}
+		
+		h2{
+			font-size:3rem;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			color:#f0f0f0;
+			text-decoration:underline;
+			margin-top:5rem;
+			margin-bottom:3rem;
+		}	
+		
+		#projects{
+			display:flex;
+			flex-direction:column;
+			background-color:#45567d;
+			width:100%;
+			height:auto;
+			align-items:center;
+			text-align:center;
+		}
+		
+		.row{
+			display:flex;
+		}
+		
+		@media(max-width:1030px){
+			.row{
+				display:flex;
+				flex-direction:column;
+			}
+		}
+		
+		.container{
+			max-width:100%;
+			height:400px;
+			width:380px;
+			background:black;
+			margin:30px 20px 120px 20px;
+		}
+		
+		@media(max-width:1030px){
+			.container{
+				max-width:100%;
+				height:300px;
+				width:250px;
+				background:black;
+				margin:5px 0px 120px 0px;
+			}
+		}
+		
+		img{
+			width:380px;
+			height:400px;
+		}
+		
+		@media(max-width:800px){
+			img{
+				width:250px;
+				height:300px;
+			}
+		}
+		
+		.project-tile{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			margin-top:-5%;
+			width:100%;
+			height:20%;
+			background:#303841;
+			color:white;
+			font-size:25px;
+		}
+		
+		#navbar{
+			position:fixed;
+			display:flex;	
+			width:100%;
+			height:70px;
+			padding:0;
+			background-color:#be3144;
+			color:#f0f0f0;
+			margin:-10px 0px 0px 0px;
+			justify-content:flex-end;
+			align-items:center;	
+			font-family:'Poppins', sans-serif;
+		}
+		
+		@media(max-width:800px){
+			#navbar{
+				position:fixed;
+				display:flex;
+				width:100%;	
+				height:50px;
+				padding:0;
+				background-color:#be3144;
+				color:#f0f0f0;
+				margin:0px 0px 0px 0px;
+				justify-content:center;
+				align-items:center;	
+				font-family:'Poppins', sans-serif;
+		}
+		}
+		
+		#contact{
+			background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+			background-color:#45567d;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			height:90vh;
+			width:100%;
+		}
+		
+		.a{
+			padding:30px;
+			color:#f0f0f0;
+			font-size:2.0rem;
+			font-weight:300;
+			text-decoration:none;
+		}
+		
+		@media(max-width:800px){
+			.a{
+				padding:8px;
+				color:#f0f0f0;
+				font-size:1.5rem;
+				font-weight:250;
+				text-decoration:none;
+		}
+		}
+		
+		footer{
+			
+			height:auto;
+			color:gray;
+			font-size:20px;
+			border-top:solid #be3144 3px;
+			text-align:center;
+			background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+			background-color:#45567d;
+		}
+		
+		@media(max-width:1200px){
+			footer{
+				display:flex;
+				flex-direction:column;
+				max-width:100%;
+				height:auto;
+				color:gray;
+				font-size:20px;
+				border-top:solid #be3144 1.5px;
+				text-align:center;
+				background-image:linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+				background-color:#45567d;
+				margin-bottom:20px;
+			}
+		}
+		
+		.p3{
+			font-size:30px;
+			margin:20px auto 50px auto;
+		}
+		
+		@media(max-width:1200px){
+			.p3{
+				margin:10px auto;
+			}
+		}
+		
+		.fonta{
+			font-size:48px;
+			margin:auto;
+			
+		}
